@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Enviar mensaje a todos
+	form(action="/enviarmsg", method="POST")
+		input#mensaje(type="text", name="mensaje")
+		input#boton(type="submit", value="Enviar")
+	
+	
